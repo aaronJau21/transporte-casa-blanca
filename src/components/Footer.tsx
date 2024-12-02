@@ -1,6 +1,6 @@
 export const Footer = () => {
   return (
-    <footer className="bg-primarypa">
+    <footer className="bg-primary">
       <div className="container mx-auto w-11/12">
         <p>© 2024 Transporte Casa Blanca</p>
       </div>

@@ -1,5 +1,37 @@
 import { Line } from "@/components";
 import Link from "next/link";
+import { OfferItem } from "./OfferItem";
+import { FaCog, FaRegCompass } from "react-icons/fa";
+import { PiTreeStructureBold } from "react-icons/pi";
+import { GiCarSeat } from "react-icons/gi";
+import { MdAir, MdOutlineTireRepair } from "react-icons/md";
+
+const offerceItem = [
+  {
+    icon: <FaCog size={70} color="#3CAA31" />,
+    title: "Autos con su mantenimiento al dia",
+  },
+  {
+    icon: <FaRegCompass size={70} color="#3CAA31" />,
+    title: "vehiculos con gps",
+  },
+  {
+    icon: <PiTreeStructureBold size={70} color="#3CAA31" />,
+    title: "vista panoramica",
+  },
+  {
+    icon: <GiCarSeat size={70} color="#3CAA31" />,
+    title: "acientos comodos",
+  },
+  {
+    icon: <MdAir size={70} color="#3CAA31" />,
+    title: "aire acondicionado",
+  },
+  {
+    icon: <MdOutlineTireRepair size={70} color="#3CAA31" />,
+    title: "llantas nuevas",
+  },
+];
 
 export const Offer = () => {
   return (
@@ -36,6 +68,11 @@ export const Offer = () => {
             </svg>
           </Link>
         </button>
+      </div>
+      <div className="grid grid-cols-3 mx-9 mb-16">
+        {offerceItem.map((item) => (
+          <OfferItem key={item.title} {...item} />
+        ))}
       </div>
     </>
   );

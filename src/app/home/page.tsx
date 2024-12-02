@@ -1,4 +1,4 @@
-import { Carousel, Informacion, Offer } from "@/home";
+import { Carousel, Contact, Informacion, Offer } from "@/home";
 
 export const metadata = {
   title: "Inicio - Transporte Casa Blanca",
@@ -16,6 +16,9 @@ export default function HomePage() {
       </section>
       <section className="pt-9 container mx-auto w-11/12 ">
         <Offer />
+      </section>
+      <section className="h-96 bg-gradient-to-r from-slate-100 via-slate-200 to-slate-300">
+        <Contact />
       </section>
     </>
   );

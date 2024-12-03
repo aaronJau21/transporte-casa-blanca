@@ -1,26 +1,32 @@
 "use client";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { ItemCrousel } from "./ItemCrousel";
 
 export const Carousel = () => {
   const images = [
     {
-      img: "/images/slide1.jpg",
-      title: "La Merced",
-      description:
-        "La Merced es conocida por ser la «Capital Cafetalera del Perú» debido a su producción de café. También es un destino turístico popular, especialmente para aquellos que buscan aventuras y disfrutan de la naturaleza",
+      img: "/images/home/tarma.jpg",
+      title: "Tarma",
+      description: `
+        Tarma es una ciudad en las montañas andinas en el centro de Perú. 
+        La catedral neoclásica de Santa Ana de Tarma se encuentra en la plaza principal, la Plaza de Armas. 
+        En el norte de la ciudad, el Santuario del Señor de Muruhuay es una iglesia sobre una 
+        colina que tiene una imagen sagrada de Cristo. 
+        `,
     },
     {
-      img: "/images/slide2.jpg",
+      img: "/images/home/oxa.jpg",
       title: "Oxapampa ",
       description:
         "Conocido como «La Puerta de Oro de la Selva Central», ofrece varios atractivos turísticos que te permitirán disfrutar de su exquisita gastronomía, una gran biodiversidad y la hospitalidad de sus habitantes.",
     },
     {
-      img: "/images/slide3.jpg",
-      title: "Pichanaki",
-      description:
-        "Después de sus incursiones por la Selva Central, los sacerdotes franciscanos se convencieron de la necesidad de contar con un convento, un centro de operaciones para su labor evangelizadora.",
+      img: "/images/home/satipo.jpg",
+      title: "Satipo",
+      description: `
+        El Distrito de Satipo es uno de los nueve distritos de la Provincia de Satipo, ubicada en el Departamento de Junín, bajo la administración del Gobierno regional de Junín, en la parte central del Perú.
+        Desde el punto de vista jerárquico de la Iglesia católica, forma parte de la Vicariato apostólico de San Ramón.
+      `,
     },
   ];
 
@@ -37,6 +43,14 @@ export const Carousel = () => {
       prevIndex === 0 ? images.length - 1 : prevIndex - 1
     );
   };
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      nextSlide();
+    }, 3000);
+
+    return () => clearInterval(interval);
+  }, []);
 
   return (
     <div className="relative w-screen mx-auto overflow-hidden">

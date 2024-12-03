@@ -10,14 +10,14 @@ interface Props {
 
 export const ItemCrousel = ({ src }: Props) => {
   return (
-    <div key={src.title} className="flex-shrink-0 w-screen h-[35rem] relative">
+    <div key={src.title} className="flex-shrink-0 w-full h-[35rem] relative">
       <Image
         src={src.img}
         alt={`Slide ${src.title}`}
-        className=" w-full h-full "
-        width={500}
-        height={500}
-        priority
+        className=" w-[99vw] h-full"
+        layout="fill"
+        objectFit="cover"
+        // quality={100}
       />
       {/* Texto sobre la imagen (opcional) */}
       <div className="absolute top-5 left-9 lg:top-5 lg:left-9  lg:h-64 rounded-md bg-white w-72 lg:w-96 p-5 text-black">

@@ -17,29 +17,8 @@ export const ItemCrousel = ({ src }: Props) => {
         className=" w-[99vw] h-full"
         layout="fill"
         objectFit="cover"
-        // quality={100}
+        quality={100}
       />
-      {/* Texto sobre la imagen (opcional) */}
-      <div className="absolute top-5 left-9 lg:top-5 lg:left-9  lg:h-64 rounded-md bg-white w-72 lg:w-96 p-5 text-black">
-        <div className="mb-3">
-          <p className="text-sm text-gray-500">
-            Diciembre 1, 2024 por{" "}
-            <a href="#" className="text-sky-500">
-              TRANSPORTE CASABLANCA
-            </a>
-          </p>
-        </div>
-        <h2 className="text-2xl font-semibold text-center">{src.title}</h2>
-        <p className="text-sm">{src.description}</p>
-        <div className="flex justify-end mt-3">
-          <a
-            href="https://wa.me/51966389211"
-            className="bg-sky-500 text-white px-3 py-1 rounded-md"
-          >
-            mas info
-          </a>
-        </div>
-      </div>
     </div>
   );
 };

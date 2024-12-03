@@ -11,7 +11,7 @@ export const Contact = () => {
         <p className="text-lg font-bold mt-5">RESERVAR UNA CITA HOY</p>
         <div className="flex justify-center mt-5">
           <a
-            href="#"
+            href="https://wa.me/51966389211"
             className="flex items-center gap-x-3 border-2 border-primary px-5 py-3 rounded-md text-primary hover:bg-primary hover:text-white transition-colors delay-200"
           >
             RESERVA AHORA <FaCalendarAlt />

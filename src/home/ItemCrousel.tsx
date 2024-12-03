@@ -32,9 +32,12 @@ export const ItemCrousel = ({ src }: Props) => {
         <h2 className="text-2xl font-semibold text-center">{src.title}</h2>
         <p className="text-sm">{src.description}</p>
         <div className="flex justify-end mt-3">
-          <button className="bg-sky-500 text-white px-3 py-1 rounded-md">
+          <a
+            href="https://wa.me/51966389211"
+            className="bg-sky-500 text-white px-3 py-1 rounded-md"
+          >
             mas info
-          </button>
+          </a>
         </div>
       </div>
     </div>

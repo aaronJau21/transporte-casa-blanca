@@ -1,5 +1,4 @@
 import { Line } from "@/components";
-import Link from "next/link";
 import { OfferItem } from "./OfferItem";
 import { FaCog, FaRegCompass } from "react-icons/fa";
 import { PiTreeStructureBold } from "react-icons/pi";
@@ -48,8 +47,8 @@ export const Offer = () => {
 
         <div className="flex justify-center mt-9 lg:mt-0">
           <button>
-            <Link
-              href="#"
+            <a
+              href="https://wa.me/51966389211"
               className="flex border-2 border-primary text-primary py-1 px-3 rounded-md text-xl hover:bg-primary hover:text-white transition-colors delay-200"
             >
               Nuestros Servicios
@@ -67,7 +66,7 @@ export const Offer = () => {
                   d="m12.75 15 3-3m0 0-3-3m3 3h-7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
                 />
               </svg>
-            </Link>
+            </a>
           </button>
         </div>
       </div>

@@ -18,12 +18,15 @@ const navLinks = [
 const redSocial = [
   {
     icon: <FaFacebook />,
+    link: "https://www.facebook.com/ViajesALaSelvaEnAuto",
   },
   {
     icon: <FaTiktok />,
+    link: "https://www.tiktok.com/@transportecasablanca?_t=8ruUwah8YPo&_r=1",
   },
   {
     icon: <FaInstagram />,
+    link: "https://www.instagram.com/transportecasablancape/",
   },
 ];
 
@@ -50,7 +53,7 @@ export const NavBar = () => {
         <nav>
           <ul className="flex gap-x-5">
             {redSocial.map((item, index) => (
-              <RedSocialItem key={index} icon={item.icon} />
+              <RedSocialItem key={index} icon={item.icon} link={item.link} />
             ))}
           </ul>
         </nav>

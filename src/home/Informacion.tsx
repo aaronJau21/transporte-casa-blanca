@@ -1,4 +1,5 @@
 import { Line } from "@/components";
+import Link from "next/link";
 import React from "react";
 
 export const Informacion = () => {
@@ -6,7 +7,7 @@ export const Informacion = () => {
     <div className="flex justify-center items-center h-full">
       <div className="w-[51rem] text-center">
         <h2 className="text-5xl font-black">Transporte Casa Blanca</h2>
-        <Line color="border-gray-600" className="flex justify-center"/>
+        <Line color="border-gray-600" className="flex justify-center" />
         <p className="my-9">
           Nuestro equipo de atención al cliente altamente capacitado está
           disponible para ayudarte de lunes a domingo, las 24 horas del día. Ya
@@ -16,7 +17,10 @@ export const Informacion = () => {
         </p>
 
         <div className="flex justify-center ">
-          <button className="flex gap-x-2 border-2 border-primary py-2 px-3 font-semibold text-xl  text-primary hover:text-white hover:bg-primary transition-colors delay-200">
+          <Link
+            href="https://wa.me/51966389211"
+            className="flex gap-x-2 border-2 border-primary py-2 px-3 font-semibold text-xl  text-primary hover:text-white hover:bg-primary transition-colors delay-200"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -32,7 +36,7 @@ export const Informacion = () => {
               />
             </svg>
             LLAMAR 24/7
-          </button>
+          </Link>
         </div>
       </div>
     </div>

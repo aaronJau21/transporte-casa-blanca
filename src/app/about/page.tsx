@@ -1,7 +1,10 @@
+import { Main, StandOut } from "@/about";
+
 export default function AboutPage() {
   return (
-    <div>
-      <h1>Hello Page</h1>
-    </div>
+    <>
+      <Main />
+      <StandOut />
+    </>
   );
 }

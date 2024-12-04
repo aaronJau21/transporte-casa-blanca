@@ -14,7 +14,7 @@ export const NavbarItem = ({ href, label }: Props) => {
     <li>
       <Link
         className={`text-white text-xl font-mono ${
-          currentPath === href ? "text-gray-950 uppercase font-bold" : ""
+          currentPath === href ? "text-black uppercase font-bold" : ""
         }`}
         href={href}
       >

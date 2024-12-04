@@ -4,7 +4,6 @@ interface Props {
   src: {
     img: string;
     title: string;
-    description: string;
   };
 }
 

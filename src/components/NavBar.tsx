@@ -42,6 +42,8 @@ export const NavBar = () => {
         />
       </Link>
 
+      <h1 className="text-white text-3xl font-mono font-bold">Transporte Casa Blanca</h1>
+
       <div className="flex items-center gap-x-5">
         <nav>
           <ul className="flex gap-x-5">

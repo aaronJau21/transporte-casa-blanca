@@ -1,9 +1,9 @@
 import { Line } from "@/components";
-import { OfferItem } from "./OfferItem";
 import { FaCog, FaRegCompass } from "react-icons/fa";
 import { PiTreeStructureBold } from "react-icons/pi";
 import { GiCarSeat } from "react-icons/gi";
 import { MdAir, MdOutlineTireRepair } from "react-icons/md";
+import { OfferItem } from "./OfferItem";
 
 const offerceItem = [
   {
@@ -34,7 +34,7 @@ const offerceItem = [
 
 export const Offer = () => {
   return (
-    <>
+    <main className="pt-9 pb-16 container mx-auto w-11/12 ">
       <h2 className="text-4xl font-black ml-9">QUE OFREMOS</h2>
       <Line color="border-black" />
       <div className="lg:flex lg:justify-between mt-9 mx-9">
@@ -69,12 +69,14 @@ export const Offer = () => {
             </a>
           </button>
         </div>
+
+        {/* <motion.div /> */}
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 mx-9 mb-16">
         {offerceItem.map((item) => (
           <OfferItem key={item.title} {...item} />
         ))}
       </div>
-    </>
+    </main>
   );
 };

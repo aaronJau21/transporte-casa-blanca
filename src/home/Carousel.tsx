@@ -5,28 +5,16 @@ import { ItemCrousel } from "./ItemCrousel";
 export const Carousel = () => {
   const images = [
     {
-      img: "/images/home/tarma.jpg",
-      title: "Tarma",
-      description: `
-        Tarma es una ciudad en las montañas andinas en el centro de Perú. 
-        La catedral neoclásica de Santa Ana de Tarma se encuentra en la plaza principal, la Plaza de Armas. 
-        En el norte de la ciudad, el Santuario del Señor de Muruhuay es una iglesia sobre una 
-        colina que tiene una imagen sagrada de Cristo. 
-        `,
-    },
-    {
       img: "/images/home/oxa.jpg",
       title: "Oxapampa ",
-      description:
-        "Conocido como «La Puerta de Oro de la Selva Central», ofrece varios atractivos turísticos que te permitirán disfrutar de su exquisita gastronomía, una gran biodiversidad y la hospitalidad de sus habitantes.",
     },
     {
       img: "/images/home/satipo.jpg",
       title: "Satipo",
-      description: `
-        El Distrito de Satipo es uno de los nueve distritos de la Provincia de Satipo, ubicada en el Departamento de Junín, bajo la administración del Gobierno regional de Junín, en la parte central del Perú.
-        Desde el punto de vista jerárquico de la Iglesia católica, forma parte de la Vicariato apostólico de San Ramón.
-      `,
+    },
+    {
+      img: "/images/home/tarma.jpg",
+      title: "Tarma",
     },
   ];
 

@@ -3,6 +3,7 @@ import Link from "next/link";
 import { NavbarItem } from "./NavbarItem";
 import { FaFacebook, FaInstagram, FaTiktok } from "react-icons/fa";
 import { RedSocialItem } from "./RedSocialItem";
+import { GiHamburgerMenu } from "react-icons/gi";
 
 const navLinks = [
   {
@@ -32,7 +33,7 @@ const redSocial = [
 
 export const NavBar = () => {
   return (
-    <header className="w-max-screen flex justify-around items-center bg-primary py-3">
+    <header className="w-max-screen flex justify-between px-9 lg:px-0 lg:justify-around items-center bg-primary py-3">
       <Link href="/home">
         <Image
           src="/logo.jpg"
@@ -42,9 +43,11 @@ export const NavBar = () => {
         />
       </Link>
 
-      <h1 className="text-white text-3xl font-mono font-bold">Transporte Casa Blanca</h1>
+      <h1 className="text-white text-5xl font-mono font-bold hidden lg:inline">
+        Transporte Casa Blanca
+      </h1>
 
-      <div className="flex items-center gap-x-5">
+      <div className="hidden lg:flex lg:items-center lg:gap-x-5">
         <nav>
           <ul className="flex gap-x-5">
             {navLinks.map((item) => (
@@ -59,6 +62,10 @@ export const NavBar = () => {
             ))}
           </ul>
         </nav>
+      </div>
+
+      <div className="lg:hidden">
+        <GiHamburgerMenu size={25} />
       </div>
     </header>
   );

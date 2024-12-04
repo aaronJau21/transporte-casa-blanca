@@ -26,7 +26,7 @@ export const OfferItem = ({ icon, title }: Props) => {
     <motion.div
       initial="offscreen"
       whileInView="onscreen"
-      animate={{ x: 100 }}
+      // animate={{ x: 100 }}
       viewport={{ once: true, amount: 0.8 }}
     >
       <motion.div variants={cardVariants}>

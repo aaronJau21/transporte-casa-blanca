@@ -1,9 +1,13 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
 import { NavbarItem } from "./NavbarItem";
 import { FaFacebook, FaInstagram, FaTiktok } from "react-icons/fa";
 import { RedSocialItem } from "./RedSocialItem";
 import { GiHamburgerMenu } from "react-icons/gi";
+import { useState } from "react";
+import { motion } from "motion/react";
 
 const navLinks = [
   {
@@ -32,6 +36,7 @@ const redSocial = [
 ];
 
 export const NavBar = () => {
+  const [showOtherPage, setShowOtherPage] = useState(false);
   return (
     <header className="w-max-screen flex justify-between px-9 lg:px-0 lg:justify-around items-center bg-primary py-3">
       <Link href="/home">
@@ -63,10 +68,30 @@ export const NavBar = () => {
           </ul>
         </nav>
       </div>
-
+      {/* hamburguesa */}
       <div className="lg:hidden">
-        <GiHamburgerMenu size={25} />
+        <GiHamburgerMenu
+          size={25}
+          onClick={() => setShowOtherPage(!showOtherPage)}
+        />
       </div>
+      {showOtherPage ? (
+        <motion.div
+          className="absolute top-28 right-0 bg-primary w-96 z-50"
+          initial={{ opacity: 0, x: 50 }}
+          animate={{ opacity: 1, x: 0 }}
+          exit={{ opacity: 0, x: 50 }}
+          transition={{ duration: 0.5 }}
+        >
+          <nav>
+            <ul className="flex flex-col items-center gap-y-5">
+              {navLinks.map((item) => (
+                <NavbarItem key={item.href} {...item} />
+              ))}
+            </ul>
+          </nav>
+        </motion.div>
+      ) : null}
     </header>
   );
 };

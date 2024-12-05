@@ -5,11 +5,11 @@ export const Vide = () => {
         Algunos de nuestros cLientes
       </h3>
       <main className="mt-8">
-        <h4 className="mt-6 text-gray-900 dark:text-gray-200 text-2xl font-bold">
+        <h4 className="mt-6 text-gray-900 text-2xl font-bold">
           Maritsa Fabian{" "}
         </h4>
 
-        <p className="mt-2 leading-loose text-gray-900 dark:text-gray-300 text-justify">
+        <p className="mt-2 leading-loose text-gray-900 text-justify">
           Recomiendo ampliamente a la empresa por su excelente servicio. Su
           responsabilidad, puntualidad y atención son excepcionales, realmente
           agradecemos la rapidez y eficiencia para todos mis envíos a

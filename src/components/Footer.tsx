@@ -18,7 +18,7 @@ export const Footer = () => {
           <div className="text-white text-center sm:text-start">
             <h4 className="text-3xl font-bold mb-4">Contacto</h4>
             <p>Direccion : Terminal terrestre Plaza norte</p>
-            <p>numero: +51 933 524 495</p>
+            <p>numero: +51 966 389 211</p>
             <p>Email: zabaletaerinson@gmail.com</p>
             <p>lunes-sabado : 9:00 AM - 5:00 PM</p>
           </div>

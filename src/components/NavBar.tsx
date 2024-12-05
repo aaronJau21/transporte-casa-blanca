@@ -6,8 +6,9 @@ import { NavbarItem } from "./NavbarItem";
 import { FaFacebook, FaInstagram, FaTiktok } from "react-icons/fa";
 import { RedSocialItem } from "./RedSocialItem";
 import { GiHamburgerMenu } from "react-icons/gi";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { motion } from "motion/react";
+import { usePathname } from "next/navigation";
 
 const navLinks = [
   {
@@ -41,6 +42,12 @@ const redSocial = [
 
 export const NavBar = () => {
   const [showOtherPage, setShowOtherPage] = useState(false);
+  const currentPath = usePathname();
+
+  useEffect(() => {
+    setShowOtherPage(false);
+  }, [currentPath]);
+
   return (
     <header className="w-max-screen flex justify-between px-9 lg:px-0 lg:justify-around items-center bg-primary py-3">
       <Link href="/home">
@@ -53,11 +60,11 @@ export const NavBar = () => {
         />
       </Link>
 
-      <h1 className="text-white text-5xl font-mono font-bold hidden lg:inline">
+      <h1 className="text-white text-5xl font-mono font-bold hidden xl:inline">
         Transporte Casa Blanca
       </h1>
 
-      <div className="hidden lg:flex lg:items-center lg:gap-x-5">
+      <div className="hidden xl:flex xl:items-center xl:gap-x-5">
         <nav>
           <ul className="flex gap-x-5">
             {navLinks.map((item) => (
@@ -74,7 +81,7 @@ export const NavBar = () => {
         </nav>
       </div>
       {/* hamburguesa */}
-      <div className="lg:hidden">
+      <div className="xl:hidden">
         <GiHamburgerMenu
           size={25}
           onClick={() => setShowOtherPage(!showOtherPage)}

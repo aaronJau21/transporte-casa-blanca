@@ -3,21 +3,21 @@ import { ServiceItems } from "./ServiceItems";
 
 const serviceItems = [
   {
-    title: "Transporte",
+    title: "Recojo en tu Casa",
     descrition:
-      "Entendemos que cada cliente tiene necesidades únicas. Por eso, ofrecemos una variedad de servicios de transporte para satisfacer tus necesidades específicas, ya sea un viaje de negocios, un traslado al aeropuerto o una noche de diversión en la ciudad.",
+      "Tu comodidad es nuestra prioridad. Llegamos a tu puerta para iniciar tu viaje sin contratiempos, ofreciéndote un servicio confiable y puntual que se adapta a tu horario.",
     img: "/images/service/servicio1.jpg",
   },
   {
     title: "Pet Friendly",
     descrition:
-      "Entendemos que cada cliente tiene necesidades únicas. Por eso, ofrecemos una variedad de servicios de transporte para satisfacer tus necesidades específicas, ya sea un viaje de negocios, un traslado al aeropuerto o una noche de diversión en la ciudad.",
+      "Viaja con tus mejores amigos. Nuestras camionetas están diseñadas para que tus mascotas disfruten de un traslado seguro, cómodo y sin estrés. Porque ellos también son parte de la familia.",
     img: "/images/service/servicio2.jpg",
   },
   {
-    title: "Entraga de Paquetes",
+    title: "Entrega de Paquetes",
     descrition:
-      "Entendemos que cada cliente tiene necesidades únicas. Por eso, ofrecemos una variedad de servicios de transporte para satisfacer tus necesidades específicas, ya sea un viaje de negocios, un traslado al aeropuerto o una noche de diversión en la ciudad.",
+      "Confía en nosotros para mover lo que más importa. Desde pequeños documentos hasta envíos voluminosos, transportamos tus paquetes con la máxima seguridad y rapidez.",
     img: "/images/service/servicio3.jpg",
   },
 ];

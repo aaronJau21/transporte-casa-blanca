@@ -8,15 +8,20 @@ export const Main = () => {
           Un puente hacia la selva, un viaje con propósito
         </h2>
         <p className="lg:w-[70%] px-16 lg:px-0 text-justify">
-          Transportes Casablanca nació de la pasión por conectar mundos. Fundado
-          hace 3 años por una familia emprendedora, nuestra empresa comenzó con
-          una simple idea: ofrecer un transporte que combine confianza, rapidez
-          y comodidad para los viajeros que buscan explorar la magia de la Selva
-          Central del Perú. Inspirados por la calidez y hospitalidad de Oxapampa
-          y el bullicio de Lima, hemos diseñado un servicio pensado para quienes
-          valoran cada minuto y disfrutan cada trayecto. Hoy, con nuestras
-          modernas camionetas y un equipo dedicado, seguimos cumpliendo nuestro
-          compromiso de acercar destinos y crear experiencias memorables.
+          Transportes Casablanca nació de un profundo deseo por conectar
+          personas y destinos. Fundado hace 3 años por Edén, un trujillano
+          visionario, e Irma, oriunda de la hermosa Selva Central, este sueño
+          comenzó con una simple pero poderosa idea: ofrecer un transporte que
+          combine confianza, rapidez y comodidad para quienes buscan explorar la
+          riqueza y diversidad de nuestra región. Inspirados por la calidez y
+          hospitalidad de la gente de la Selva Central, Edén e Irma
+          transformaron su pasión en un servicio diseñado para viajeros que
+          valoran cada minuto y disfrutan cada trayecto. Con modernas camionetas
+          y un equipo comprometido, Transportes Casablanca no solo acerca
+          distancias, sino que también crea experiencias inolvidables que hacen
+          que cada viaje sea especial. Hoy, seguimos impulsados por esa misma
+          pasión y el deseo de brindar más que un transporte: una conexión
+          auténtica con lo que realmente importa.
         </p>
       </div>
       <div className="flex-1">

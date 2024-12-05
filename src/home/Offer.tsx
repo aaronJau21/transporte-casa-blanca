@@ -35,7 +35,7 @@ const offerceItem = [
 export const Offer = () => {
   return (
     <main className="pt-9 pb-16 container mx-auto w-11/12 ">
-      <h2 className="text-4xl font-black ml-9">QUE OFREMOS</h2>
+      <h2 className="text-4xl font-black ml-9">QUE OFRECEMOS</h2>
       <Line color="border-black" />
       <div className="lg:flex lg:justify-between mt-9 mx-9">
         <p className="lg:w-[35rem] text-center lg:text-start">

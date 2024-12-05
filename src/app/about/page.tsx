@@ -2,7 +2,7 @@ import { ChooseUs, Main, StandOut } from "@/about";
 import { Contact } from "@/home";
 
 export const metadata = {
-  title: "Nosotros",
+  title: "Nosotros - Transporte Casablanca",
   description: "La historia de Transporte Casablanca",
 };
 

@@ -31,7 +31,7 @@ export const Items = ({ description, icon, title }: Props) => {
       viewport={{ once: true, amount: 0.8 }}
     >
       <motion.div variants={cardVariants}>
-        <div className="relative mt-6 flex w-96 flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
+        <div className="relative mt-6 flex w-64 md:w-96 flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
           <div className="p-6">
             <div className="flex justify-center mb-5">{icon}</div>
             <h5 className="mb-2 block font-sans text-2xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">

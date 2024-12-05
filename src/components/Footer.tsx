@@ -9,6 +9,7 @@ export const Footer = () => {
             <Image
               src="/logo.jpg"
               alt="logo Casa Blanca Transporte"
+              className="border-2 border-white rounded-full"
               width={170}
               height={170}
             />
@@ -30,7 +31,7 @@ export const Footer = () => {
           </div>
         </div>
         <div className="h-24 border-t border-white">
-          <div className="flex flex-col justify-center h-full sm:justify-between items-center container mx-auto w-11/12 text-white">
+          <div className="flex flex-col justify-center h-full  sm:flex-row sm:justify-between items-center container mx-auto w-11/12 text-white">
             <p>© 2024 Transporte Casa Blanca</p>
             <p>Powered by Transporte Casa Blanca</p>
           </div>

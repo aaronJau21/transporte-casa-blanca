@@ -9,6 +9,7 @@ export default {
     "./src/about/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/about/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/*.{js,ts,jsx,tsx,mdx}",
+    "./src/services/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
     extend: {

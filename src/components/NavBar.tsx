@@ -18,6 +18,10 @@ const navLinks = [
     label: "Nosotros",
     href: "/about",
   },
+  {
+    label: "Servicios",
+    href: "/services",
+  },
 ];
 
 const redSocial = [
@@ -43,6 +47,7 @@ export const NavBar = () => {
         <Image
           src="/logo.jpg"
           alt="logo Casa Blanca Transporte"
+          className="border-2 border-white rounded-full"
           width={130}
           height={130}
         />

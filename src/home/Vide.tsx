@@ -9,7 +9,7 @@ export const Vide = () => {
           Maritsa Fabian{" "}
         </h4>
 
-        <p className="mt-2 leading-loose text-gray-600 dark:text-gray-300 text-justify">
+        <p className="mt-2 leading-loose text-gray-900 dark:text-gray-300 text-justify">
           Recomiendo ampliamente a la empresa por su excelente servicio. Su
           responsabilidad, puntualidad y atención son excepcionales, realmente
           agradecemos la rapidez y eficiencia para todos mis envíos a

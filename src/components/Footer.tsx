@@ -9,21 +9,20 @@ export const Footer = () => {
             <Image
               src="/logo.jpg"
               alt="logo Casa Blanca Transporte"
-              className="border-2 border-white rounded-full"
               width={170}
               height={170}
             />
           </div>
 
           <div className="text-white text-center sm:text-start">
-            <h4 className="text-3xl font-bold mb-4">Contacto</h4>
+            <h4 className="text-3xl font-bold mb-4 uppercase">Contacto</h4>
             <p>Direccion : Terminal terrestre Plaza norte</p>
-            <p>numero: +51 966 389 211</p>
-            <p>Email: zabaletaerinson@gmail.com</p>
-            <p>lunes-sabado : 9:00 AM - 5:00 PM</p>
+            <p>Número: +51 966 389 211</p>
+            <p>Email: transportecasablanca@gmail.com</p>
+            <p>Lunes-Domingo : 12:00 AM - 12:00 PM</p>
           </div>
           <div className="text-white text-center sm:text-start">
-            <h4 className="text-3xl font-bold mb-4">Horario</h4>
+            <h4 className="text-3xl font-bold mb-4 uppercase">Servicios</h4>
             <p>Traslados y conexiones aeroportuarias</p>
             <p>Traslados de personal y ejecutivos</p>
             <p>Vehículos a disposición con chofer</p>

@@ -1,4 +1,4 @@
-import { Contact, Informacion, Offer, Vide } from "@/home";
+import { Contact, Destinos, Informacion, Offer, Vide } from "@/home";
 
 export const metadata = {
   title: "Inicio - Transporte Casa Blanca",
@@ -10,6 +10,7 @@ export default function HomePage() {
     <>
       <Informacion />
       <Offer />
+      <Destinos />
       <Vide />
       <Contact />
     </>

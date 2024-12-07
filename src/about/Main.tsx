@@ -24,13 +24,13 @@ export const Main = () => {
           auténtica con lo que realmente importa.
         </p>
       </div>
-      <div className="flex-1">
+      <div className="flex-1 flex justify-center">
         <Image
-          src="/images/about/principal.jpg"
+          src="/images/about/nosotos.jpg"
           alt="Imagen del carro"
-          className="w-full"
-          width={500}
-          height={500}
+          // className="w-96"
+          width={400}
+          height={400}
         />
       </div>
     </section>

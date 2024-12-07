@@ -54,15 +54,12 @@ export const NavBar = () => {
         <Image
           src="/logo.jpg"
           alt="logo Casa Blanca Transporte"
-          className="border-2 border-white rounded-full"
           width={130}
           height={130}
         />
       </Link>
 
-      <h1 className="text-white text-5xl font-mono font-bold hidden xl:inline">
-        Transporte Casa Blanca
-      </h1>
+      <h1 className="text-6xl font-bold text-white ">Transporte Casablanca</h1>
 
       <div className="hidden xl:flex xl:items-center xl:gap-x-5">
         <nav>
@@ -73,7 +70,7 @@ export const NavBar = () => {
           </ul>
         </nav>
         <nav>
-          <ul className="flex gap-x-5">
+          <ul className="flex gap-x-7">
             {redSocial.map((item, index) => (
               <RedSocialItem key={index} icon={item.icon} link={item.link} />
             ))}

@@ -15,7 +15,8 @@ const itemsVideos = [
     path: "/images/home/video2.mp4",
     nombre: "Monolo Perez",
     comentario: `
-   RECOMEND
+   RECOMENDADISIMO!👌 VIAJE SEGURO con BUENA MÚSICA y BELLA PANORAMA en la RUTA. 
+   La CONFIANZA es el MEJOR SERVICIO y TRANSPORTE CASABLANCA lo CUMPLE!
     `,
   },
 ];

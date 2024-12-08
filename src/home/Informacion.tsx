@@ -6,8 +6,8 @@ export const Informacion = () => {
       className="h-[49rem] w-full bg-cover bg-center"
       style={{ backgroundImage: "url('images/home/imagen1.png')" }}
     >
-      <div className="flex justify-center md:justify-start items-center h-full w-72 md:w-[35rem] text-white ">
-        <div className="md:ml-16 backdrop-blur-sm bg-gray-900/30 p-3 md:p-0">
+      <div className="flex justify-start items-center h-full w-72 md:w-[35rem] text-white ">
+        <div className="md:ml-16 backdrop-blur-sm bg-gray-900/30 p-3">
           <h2 className=" text-base md:text-xl lg:text-6xl font-semibold mb-5 ">
             Embárcate en una aventura única. <br />
             <span className="text-3xl">

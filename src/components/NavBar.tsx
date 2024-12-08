@@ -59,7 +59,7 @@ export const NavBar = () => {
         />
       </Link>
 
-      <h1 className="text-6xl font-bold text-white ">Transporte Casablanca</h1>
+      <h1 className="text-6xl font-bold text-white hidden lg:inline">Transporte Casablanca</h1>
 
       <div className="hidden xl:flex xl:items-center xl:gap-x-5">
         <nav>

@@ -18,7 +18,7 @@ const standItems = [
 
 export const StandOut = () => {
   return (
-    <section className="container mx-auto w-11/12 lg:grid lg:gap-x-9 lg:grid-cols-2 my-24">
+    <section className="container mx-auto w-11/12 lg:grid lg:gap-x-9 lg:grid-cols-2 mb-24 mt-10">
       {standItems.map((item) => (
         <div key={item.title} className="flex justify-center">
           <Items {...item} />

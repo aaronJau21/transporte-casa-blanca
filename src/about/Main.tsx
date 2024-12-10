@@ -2,9 +2,9 @@ import Image from "next/image";
 
 export const Main = () => {
   return (
-    <section className="lg:flex">
+    <section className="lg:flex mt-16">
       <div className="lg:flex-1 flex flex-col lg:flex-col lg:justify-center lg:items-center my-16 lg:my-0 ">
-        <h2 className="md:text-3xl mb-9 text-primary font-bold font-karla lg:ml-72 xl:ml-64">
+        <h2 className="md:text-3xl text-center mb-9 text-primary font-bold font-karla lg:ml-72 xl:ml-64">
           Un puente hacia la selva, un viaje con propósito
         </h2>
         <p className="lg:w-[90%] px-16 lg:px-0 text-justify text-xl lg:ml-72">

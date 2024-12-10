@@ -58,20 +58,9 @@ const standItems = [
 export const ChooseUs = () => {
   return (
     <section className="container mx-auto w-11/12 mb-32">
-      <h2 className="text-4xl font-Karla font-black text-center text-primary mb-9">
-        Un puente hacia la selva, un viaje con propósito
+      <h2 className="text-4xl font-Karla font-black text-center text-primary ">
+        Ofrecemos:
       </h2>
-      <p className="text-justify">
-        Transportes Casablanca nació de la pasión por conectar mundos. Fundado
-        hace 3 años por una familia emprendedora, nuestra empresa comenzó con
-        una simple idea: ofrecer un transporte que combine confianza, rapidez y
-        comodidad para los viajeros que buscan explorar la magia de la Selva
-        Central del Perú. Inspirados por la calidez y hospitalidad de Oxapampa y
-        el bullicio de Lima, hemos diseñado un servicio pensado para quienes
-        valoran cada minuto y disfrutan cada trayecto. Hoy, con nuestras
-        modernas camionetas y un equipo dedicado, seguimos cumpliendo nuestro
-        compromiso de acercar destinos y crear experiencias memorables.
-      </p>
 
       <div className="flex flex-col  items-center lg:grid lg:grid-cols-2 xl:grid-cols-3 mt-5">
         {standItems.map((item) => (

@@ -27,7 +27,7 @@ export const Vide = () => {
       <h3 className="text-4xl text-center font-black">
         Experiencias de nuestros Clientes
       </h3>
-      <div className="mt-8 lg:grid lg:grid-cols-2 container mx-auto w-11/12 flex justify-center gap-8">
+      <div className="mt-8 lg:grid lg:grid-cols-2 container mx-auto w-11/12  gap-8">
         {itemsVideos.map((item) => (
           <div className="flex justify-center" key={item.nombre}>
             <VideoItem {...item} />

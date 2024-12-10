@@ -24,7 +24,7 @@ export const Offer = () => {
       <h3 className="text-4xl font-black ml-9">QUE OFRECEMOS</h3>
       <Line color="border-black" />
       <div className="lg:flex lg:justify-between mt-9 mx-9">
-        <p className="lg:w-[35rem] lg:text-start text-xl text-justify">
+        <p className="lg:w-[35rem] lg:text-start text-xl md:text-justify">
           Te llevamos a tu destino en modernas camionetas, conectando Lima con
           toda la Selva Central y retornando con la misma calidad y compromiso.
           Ofrecemos un servicio confiable, cómodo y seguro, diseñado para que
@@ -58,7 +58,7 @@ export const Offer = () => {
           </button>
         </div>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 lg:mx-9 mb-16">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 lg:mx-9 mb-16 container mx-auto w-11/12">
         {offerceItem.map((item) => (
           <OfferItem key={item.title} {...item} />
         ))}

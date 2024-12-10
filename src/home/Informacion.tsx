@@ -9,9 +9,9 @@ export const Informacion = () => {
       <div className="flex justify-start items-center h-full w-72 md:w-[35rem] text-white ">
         <div className="md:ml-16 p-3">
           <h2 className=" text-base md:text-xl lg:text-6xl font-semibold mb-5 ">
-            Embárcate en una aventura única. <br />
+            ¡¡Embárcate en una aventura única!! <br />
             <span className="text-3xl">
-              La selva central peruana te espera...
+              La Selva Central peruana te espera...
             </span>{" "}
             <br />
             <span className="text-3xl">¡¡ Nosotros te llevamos !!</span>

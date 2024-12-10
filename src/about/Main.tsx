@@ -3,11 +3,11 @@ import Image from "next/image";
 export const Main = () => {
   return (
     <section className="lg:flex">
-      <div className="lg:flex-1 flex flex-col lg:flex-col lg:justify-center lg:items-center my-16 lg:my-0">
-        <h2 className="text-3xl mb-9 text-primary font-bold font-karla text-center">
+      <div className="lg:flex-1 flex flex-col lg:flex-col lg:justify-center lg:items-center my-16 lg:my-0 ">
+        <h2 className="md:text-3xl mb-9 text-primary font-bold font-karla lg:ml-72 xl:ml-64">
           Un puente hacia la selva, un viaje con propósito
         </h2>
-        <p className="lg:w-[70%] px-16 lg:px-0 text-justify">
+        <p className="lg:w-[90%] px-16 lg:px-0 text-justify text-xl lg:ml-72">
           Transportes Casablanca nació de un profundo deseo por conectar
           personas y destinos. Fundado hace 3 años por Edén, un trujillano
           visionario, e Irma, oriunda de la hermosa Selva Central, este sueño
@@ -24,14 +24,16 @@ export const Main = () => {
           auténtica con lo que realmente importa.
         </p>
       </div>
-      <div className="flex-1 flex justify-center">
-        <Image
-          src="/images/about/nosotos.jpg"
-          alt="Imagen del carro"
-          // className="w-96"
-          width={400}
-          height={400}
-        />
+      <div className="flex-1  ">
+        <div className="flex justify-center items-center h-full">
+          <Image
+            src="/images/about/nosotos.jpg"
+            alt="Imagen del carro"
+            // className="w-96"
+            width={300}
+            height={300}
+          />
+        </div>
       </div>
     </section>
   );

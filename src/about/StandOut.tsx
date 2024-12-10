@@ -7,12 +7,12 @@ const standItems = [
     title: "Viaje con nosotros",
     description:
       "Separe su cita ahora y disfrute con nostros la mejor experiencia.",
-    icon: <FaPhone size={40} />,
+    icon: <FaPhone size={40} className="text-primary" />,
   },
   {
     title: "horario de trabajo",
     description: "De lunes a domingo de 9:00 - 21:00",
-    icon: <MdOutlineSecurity size={40} />,
+    icon: <MdOutlineSecurity size={40} className="text-primary" />,
   },
 ];
 

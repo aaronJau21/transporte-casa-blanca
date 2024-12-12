@@ -8,7 +8,7 @@ export const Informacion = () => {
     >
       <div className="flex justify-start items-center h-full w-72 md:w-[35rem] text-white ">
         <div className="md:ml-16 p-3">
-          <h2 className=" text-base md:text-xl lg:text-6xl font-semibold mb-5 ">
+          <h2 className=" text-base md:text-xl lg:text-6xl text-primary md:text-white font-semibold mb-5 ">
             ¡¡Embárcate en una aventura única!! <br />
             <span className="text-3xl">
               La Selva Central peruana te espera...
@@ -19,7 +19,7 @@ export const Informacion = () => {
           <button>
             <a
               href="https://wa.me/51966389211"
-              className="flex border-2 border-primary text-primary py-1 px-3 rounded-md text-xl hover:bg-primary hover:text-white transition-colors delay-200"
+              className="flex border-2 border-primary bg-primary text-white py-1 px-3 rounded-md text-xl hover:bg-green-700 hover:text-white transition-colors delay-200"
             >
               Contactanos
               <svg

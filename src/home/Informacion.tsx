@@ -18,7 +18,7 @@ export const Informacion = () => {
     >
       <div className="flex justify-start items-center h-full w-72 md:w-[39rem] text-white ">
         <div className="md:ml-16 p-3">
-          <h2 className="text-base md:text-xl lg:text-6xl text-primary md:text-white font-semibold mb-5 ">
+          <h2 className="text-base md:text-xl lg:text-5xl 2xl:text-6xl text-primary md:text-white font-semibold mb-5 ">
             ¡¡Embárcate en una aventura única!! <br />
             <span className="text-3xl">
               La Selva Central peruana te espera...

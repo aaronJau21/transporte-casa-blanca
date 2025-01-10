@@ -13,7 +13,7 @@ const itemsVideos = [
   },
   {
     path: "/images/home/video2.mp4",
-    nombre: "Monolo Perez",
+    nombre: "Monolo del Castillo",
     comentario: `
    Recomendadisimo!👌 Viaje seguro con buena música y bella panorama en la ruta. 
    La confianza es el mejor servicio y TRANSPORTE CASABLANCA lo cumple!
